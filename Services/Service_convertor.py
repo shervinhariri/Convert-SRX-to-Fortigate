@@ -9,6 +9,6 @@ with open('allservices.txt') as searchfile:
 
 print("config firewall service custom")
 for object in list_of_Services:
-    conf = f"edit {object[0]}\n        set tcp-portrange {object[2]}\n    next"
+    conf = f"    edit {object[0]}\n        set tcp-portrange {object[2]}\n    next"
     print(conf)
 print("end")
