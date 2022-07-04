@@ -1,8 +1,8 @@
 config firewall service custom
-edit TEST_80008
+    edit TEST_80008
         set tcp-portrange 808
     next
-edit TEST2_80008
+    edit TEST2_80008
         set tcp-portrange 8080
     next
 end
