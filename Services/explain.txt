@@ -1,5 +1,5 @@
-with this code you could able to convert ALL convertable addresses from SRX firewall to Fortigate Firewall;
-first copy all *** address set file *** to //allservices.txt// then
+with this code you could able to convert ALL convertable services from SRX firewall to Fortigate Firewall;
+first copy all *** services set file *** to //allservices.txt// then
 run this coude with python :
 
  python Service_convertor.py >> converted_FTG_service.txt
