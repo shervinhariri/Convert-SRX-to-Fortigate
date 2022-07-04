@@ -2,4 +2,4 @@ with this code you could able to convert ALL convertable addresses from SRX fire
 first copy all *** address set file *** to //alladdress.txt// then
 run this coude with python :
 
- #python .py >> newaddress.txt 
+ #python IP_Convertor.py >> converted_FTG_address.txt 
