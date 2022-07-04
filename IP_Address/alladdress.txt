@@ -1,5 +1,5 @@
 set security address-book global address SRV1 10.10.2.2/32
-set security address-book global address SRV2 10.10.2.1/32
+set security address-book global address SRV2 10.10.2.0/24
 set security address-book global address HOTEL description "HOTEL_2"
 set security address-book global address AML-SMPP dns-name google.al.com ipv4-only
 set security address-book global address Shervin description "Shervin Hariri"
