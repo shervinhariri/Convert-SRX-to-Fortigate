@@ -1,0 +1,10 @@
+config firewall address
+edit SRV1
+   set type ipmask
+   set subnet 10.10.2.2/32
+next
+edit SRV2
+   set type ipmask
+   set subnet 10.10.2.0/24
+next
+end
