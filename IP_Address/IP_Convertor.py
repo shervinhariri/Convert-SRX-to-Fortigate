@@ -9,6 +9,6 @@ with open('alladdress.txt') as searchfile:
 
 print("config firewall address")
 for object in list_of_lists:
-    conf = f"edit {object[0]}\n   set type ipmask\n   set subnet {object[0]} {object[1]}\nnext"
+    conf = f"edit {object[0]}\n   set type ipmask\n   set subnet {object[1]}\nnext"
     print(conf)
 print("end")
