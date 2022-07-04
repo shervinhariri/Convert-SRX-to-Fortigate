@@ -1,0 +1,6 @@
+set applications application TEST_80008 protocol tcp
+set applications application TEST_80008 destination-port 808
+set applications application TEST_80008 inactivity-timeout 3600
+set applications application TEST2_800080 protocol tcp
+set applications application TEST2_80008 destination-port 8080
+set applications application TEST2_80008 inactivity-timeout 3600
